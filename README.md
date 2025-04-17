@@ -2,6 +2,10 @@
 
 The MCP Devcontainers is a Model Context Protocol (MCP) server that provides a simple integration with the [devcontainers cli](https://github.com/devcontainers/cli).
 
+<a href="https://glama.ai/mcp/servers/@crunchloop/mcp-devcontainers">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@crunchloop/mcp-devcontainers/badge" alt="Devcontainers MCP server" />
+</a>
+
 ## Dependencies
 
 This server requires **Docker** to be installed and running on your system, as it is used by the [devcontainers cli](https://github.com/devcontainers/cli) to build and manage development containers.
