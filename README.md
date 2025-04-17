@@ -1,5 +1,7 @@
 # mcp-devcontainers
 
+[![smithery badge](https://smithery.ai/badge/@crunchloop/mcp-devcontainers)](https://smithery.ai/server/@crunchloop/mcp-devcontainers)
+
 The MCP Devcontainers is a Model Context Protocol (MCP) server that provides a simple integration with the [devcontainers cli](https://github.com/devcontainers/cli).
 
 <a href="https://glama.ai/mcp/servers/@crunchloop/mcp-devcontainers">
