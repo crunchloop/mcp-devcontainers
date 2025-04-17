@@ -5,6 +5,10 @@
   "private": false,
   "license": "MIT",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crunchloop/mcp-devcontainers.git"
+  },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
