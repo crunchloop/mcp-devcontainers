@@ -4,7 +4,7 @@ import * as devcontainers from "./devcontainer.js";
 
 const server = new McpServer({
   name: "devcontainers",
-  version: "0.0.2"
+  version: "0.0.3"
 });
 
 server.tool(
