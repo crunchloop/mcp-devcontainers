@@ -1,3 +1,5 @@
+[![MseeP Badge](https://mseep.net/pr/crunchloop-mcp-devcontainers-badge.jpg)](https://mseep.ai/app/crunchloop-mcp-devcontainers)
+
 # mcp-devcontainers
 
 The MCP Devcontainers is a Model Context Protocol (MCP) server that provides a simple integration with the [devcontainers cli](https://github.com/devcontainers/cli).
