@@ -38,18 +38,11 @@ At the moment, only `stdio` transport has been implemented.
 
 ## Tools
 
-- **devcontainer_up** - Start or initialize a devcontainer environment in the specified workspace folder. Use this to ensure the devcontainer is running and ready for development tasks.
-  - `workspaceFolder`: Path to the workspace folder (string, required)
-  - `outputFilePath`: Path to write output logs (string, optional)
-
-- **devcontainer_run_user_commands** - Run the user-defined `postCreateCommand` and `postStartCommand` scripts in the devcontainer for the specified workspace folder. Use this to execute setup or initialization commands after the devcontainer starts.
-  - `workspaceFolder`: Path to the workspace folder (string, required)
-  - `outputFilePath`: Path to write output logs (string, optional)
-
-- **devcontainer_exec** - Execute an arbitrary shell command inside the devcontainer for the specified workspace folder. Use this to run custom commands or scripts within the devcontainer context.
-  - `workspaceFolder`: Path to the workspace folder (string, required)
-  - `command`: Command to execute (string[], required)
-  - `outputFilePath`: Path to write output logs (string, optional)
+| Tool                               | workspaceFolder                                 | outputFilePath                               | Command                                 | Description                                                                                                                                                                                                         |
+| ---------------------------------- | ----------------------------------------------- | -------------------------------------------- | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **devcontainer_up**                | Path to the workspace folder (string, required) | Path to write output logs (string, optional) | N/A                                     | Start or initialize a devcontainer environment in the specified workspace folder.<br>Use this to ensure the devcontainer is running and ready for development tasks.                                                   |
+| **devcontainer_run_user_commands** | Path to the workspace folder (string, required) | Path to write output logs (string, optional) | N/A                                     | Run the user-defined `postCreateCommand` and `postStartCommand` scripts in the devcontainer for the specified workspace folder.<br>Use this to execute setup or initialization commands after the devcontainer starts. |
+| **devcontainer_exec**              | Path to the workspace folder (string, required) | Path to write output logs (string, optional) | Command to execute (string[], required) | Execute an arbitrary shell command inside the devcontainer for the specified workspace folder.<br>Use this to run custom commands or scripts within the devcontainer context.                                          |                  |
 
 ## License
 
